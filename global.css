@@ -95,9 +95,6 @@ h1 {
     justify-content: flex-end;
     margin-right: 16px;
 }
-#sidemenu {
-    padding-top: 2px;
-}
 
 #searchTerm {
     display: none;
@@ -115,13 +112,42 @@ h1 {
     opacity: 0.8;
 }
 
-#sidemenu {
+#burger, #close {
     margin-right: 15px;
 }
 
 #search, #profile {
     margin-left: 15px;   
 }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2D2548;
+    box-shadow: 2px 0px 1px rgba(0, 0, 0, 0.25);
+    overflow-x: hidden;
+    padding-top: 70px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 10px 0 10px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #EAF2EF;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -157,7 +183,20 @@ h1 {
         margin-right: 200px;
     }
 
+    .navbar-left .iconify {
+        padding-top: 3px;
+    }
+
+    #search {
+        font-size: 1.4em;
+        margin-top: 3px;
+    }
+
     #searchTerm {
         display: inline;
+    }
+
+    .sidenav {
+        padding-top: 90px;
     }
 }
