@@ -6,7 +6,7 @@
     <meta property='og:title' content='' />
     <meta property='og:description' content='' />
     <meta property='og:image' content='' />
-    <title>illumi - your hub for social links</title>
+    <title>illumi - index</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='icon' href='favicon.ico'>
     <link rel='stylesheet' type='text/css' media='screen' href='global.css'>
@@ -16,17 +16,19 @@
 </head>
 <body>
     <div id="sideNav" class="sidenav">
-        <a href="index.html">Home 🏠</a>
-        <a href="discover.html" style="background-color: darkslateblue;">Discover ✨</a>
+        <a href="index.html" style="background-color: darkslateblue;">Home 🏠</a>
+        <a href="discover.html">Discover ✨</a>
         <a href="chat.html">Chat 💬</a>
         <a href="notifications.html">Notifications 🔔</a>
         <a href="profile.html">Profile 🌟</a>
+        <a href="settings.html" class="settings"><span class="iconify" data-inline="false" data-icon="clarity:settings-solid"></span><h6>Settings</h6></a>
     </div>
     <div class="navbar">
         <div class="navbar-left">
             <span onclick="openNav()" id="burger" style="display: inline;" class="iconify" data-inline="false" data-icon="heroicons-outline:menu"></span>
             <span onclick="openNav()" class="iconify" id="close" style="display: none;" data-inline="false" data-icon="gg:close"></span>
-            <h3 id="heading">Discover✨</h3>
+            <h3 id="defaultHeading" style="display: none;"><b>illumi 💫</b></h3>
+            <h3 id="heading">Index 🌠</h3>
         </div>
         <div class="navbar-right">
             <input type="text" id="searchTerm" placeholder="Search a user">
@@ -35,72 +37,6 @@
         </div>
     </div>
     <div class="mainbody">
-        <div class="header">
-            <div id="filter">
-                <h5>Filter</h5>
-                <span class="iconify" data-inline="false" data-icon="ic:twotone-arrow-drop-down"></span>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="picture">
-                <img src="images/teddzyb.jpeg">
-            </div>
-            <div class="content">
-                <h5>Edwin Bartlett</h5>
-                <h6>.teddzyb</h6>
-            </div>
-            <div class="country">
-                <span class="iconify" data-inline="false" data-icon="twemoji:flag-for-flag-philippines"></span>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="picture">
-                <img src="images/RGJR.jpg">
-            </div>
-            <div class="content">
-                <h5>Roque Gelacio Jr</h5>
-                <h6>.RGJR</h6>
-            </div>
-            <div class="country">
-                <span class="iconify" data-inline="false" data-icon="twemoji:flag-for-flag-philippines"></span>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="picture">
-                <img src="images/janbird.jpg">
-            </div>
-            <div class="content">
-                <h5>Jan Anne Ebon</h5>
-                <h6>.janbird</h6>
-            </div>
-            <div class="country">
-                <span class="iconify" data-inline="false" data-icon="twemoji:flag-for-flag-philippines"></span>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="picture">
-                <img src="images/user.png">
-            </div>
-            <div class="content">
-                <h5>User Name</h5>
-                <h6>.username</h6>
-            </div>
-            <div class="country">
-                <span class="iconify" data-inline="false" data-icon="twemoji:flag-for-flag-philippines"></span>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="picture">
-                <img src="images/user.png">
-            </div>
-            <div class="content">
-                <h5>User Name</h5>
-                <h6>.username</h6>
-            </div>
-            <div class="country">
-                <span class="iconify" data-inline="false" data-icon="twemoji:flag-for-flag-philippines"></span>
-            </div>
-        </div>
     </div>
 </body>
 </html>

@@ -147,7 +147,23 @@ h1 {
     color: white;
 }
 
+.sidenav .iconify {
+    font-size: 1.2em;
+    margin-right: 20px;
+}
 
+.sidenav h6 {
+    display: inline-block;
+}
+
+.settings {
+    position: absolute;
+    bottom: 70px;
+}
+
+.settings h6 {
+    display: none;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -198,5 +214,20 @@ h1 {
 
     .sidenav {
         padding-top: 90px;
+    }
+
+    .sidenav a {
+        padding: 10px 0 10px 32px;
+    }
+
+    .settings {
+        position: absolute;
+        bottom: 90px;
+    }
+    
+    .settings h6 {
+        position: absolute;
+        display: inline;
+        bottom: 18px;
     }
 }
