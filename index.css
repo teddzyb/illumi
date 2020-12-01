@@ -5,6 +5,12 @@
     height: 768px;
 }
 
+/*
+.mainbody div {
+    border: 1px solid black;
+}
+*/
+
 .header {
     height: 8%;
     display: flex;
@@ -65,6 +71,7 @@
 
 .profile .iconify {
     font-size: 40px;
+    cursor: auto;
 }
 
 .profile h5 {
@@ -74,4 +81,65 @@
 
 .profile h6 {
     color: dimgray;
+}
+
+@media (min-width: 900px) {
+    .header {
+        height: 11%;
+        justify-content: center;
+    }
+
+    .mainbody {
+        margin-top: 83px;
+        align-items: center;
+    }
+
+    #filter {
+        width: 60%;
+        margin-right: 0;
+        justify-content: flex-end;
+    }
+
+    #filter .iconify {
+        margin-left: 35px;
+    }
+
+    .profile {
+        height: 13%;
+        width: 60%;
+    }
+
+    .picture {
+        flex-basis: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .content {
+        flex-basis: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 15px;
+    }
+    
+    .country {
+        flex-basis: 15%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile img {
+        width: 75px;
+    }
+    
+    .profile .iconify {
+        font-size: 55px;
+    }
 }

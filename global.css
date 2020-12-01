@@ -95,6 +95,25 @@ h1 {
     justify-content: flex-end;
     margin-right: 16px;
 }
+#sidemenu {
+    padding-top: 2px;
+}
+
+#searchTerm {
+    display: none;
+    width: 300px;
+    background-color: #2D2548;
+    border: 1px solid #EAF2EF;
+    border-radius: 30px;
+    padding-left: 20px;
+    color: #EAF2EF;
+    font-size: 0.8em;
+}
+
+::placeholder {
+    color: #EAF2EF;
+    opacity: 0.8;
+}
 
 #sidemenu {
     margin-right: 15px;
@@ -104,22 +123,41 @@ h1 {
     margin-left: 15px;   
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
+}
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #888;
-  }
+}
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
+
+  @media (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
+    .navbar {
+        height: 12%;
+    }
+
+    .navbar-left {
+        margin-left: 200px;
+    }
+    
+    .navbar-right {
+        justify-content: flex-end;
+        margin-right: 200px;
+    }
+
+    #searchTerm {
+        display: inline;
+    }
+}
