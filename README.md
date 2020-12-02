@@ -11,5 +11,8 @@ https://myillumi.netlify.app/
 💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.\
 🌟 **More** – More features coming soon!
 
+## Project Status
+Ongoing
+
 ## Contributors
 This is both a personal and a school project made by myself, Edwin Bartlett. I am, however, open to contributors as soon as I present the project for school puposes.
