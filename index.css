@@ -60,6 +60,10 @@
     margin-bottom: 40px;
 }
 
+#submit:hover {
+    background-color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -113,7 +117,6 @@ hr.solid {
     .vector h4 {
         text-align: center;
         margin-top: 20px;
-        font-weight: bold;
     }
 
     .signin {
