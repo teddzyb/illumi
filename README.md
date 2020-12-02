@@ -5,10 +5,10 @@ Illumi is a social platform that allows users to personalize their profiles and 
 https://myillumi.netlify.app/
 
 ## Features
-💫 **Profiles** – Personalize your profile page with a wide variety of customization options, from background designs, and icon styles, to different types of layouts. The choice is all yours.
-✨ **Discover** – Discover new people around the world, visit their profiles, or send them a message.
-🌠 **Feed** – Post your content to the world, and also see what amazing content other users are on about.
-💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.
+💫 **Profiles** – Personalize your profile page with a wide variety of customization options, from background designs, and icon styles, to different types of layouts. The choice is all yours.\
+✨ **Discover** – Discover new people around the world, visit their profiles, or send them a message.\
+🌠 **Feed** – Post your content to the world, and also see what amazing content other users are on about.\
+💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.\
 🌟 **More** – More features coming soon!
 
 ## Contributors
