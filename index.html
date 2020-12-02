@@ -6,37 +6,39 @@
     <meta property='og:title' content='' />
     <meta property='og:description' content='' />
     <meta property='og:image' content='' />
-    <title>illumi - index</title>
+    <title>illumi - sign in</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='icon' href='favicon.ico'>
     <link rel='stylesheet' type='text/css' media='screen' href='global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='discover.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <script src='global.js'></script>
+    <script src='index.js'></script>
 </head>
 <body>
-    <div id="sideNav" class="sidenav">
-        <a href="index.html" style="background-color: darkslateblue;">Home 🏠</a>
-        <a href="discover.html">Discover ✨</a>
-        <a href="chat.html">Chat 💬</a>
-        <a href="notifications.html">Notifications 🔔</a>
-        <a href="profile.html">Profile 🌟</a>
-        <a href="settings.html" class="settings"><span class="iconify" data-inline="false" data-icon="clarity:settings-solid"></span><h6>Settings</h6></a>
-    </div>
-    <div class="navbar">
-        <div class="navbar-left">
-            <span onclick="openNav()" id="burger" style="display: inline;" class="iconify" data-inline="false" data-icon="heroicons-outline:menu"></span>
-            <span onclick="openNav()" class="iconify" id="close" style="display: none;" data-inline="false" data-icon="gg:close"></span>
-            <h3 id="defaultHeading" style="display: none;"><b>illumi 💫</b></h3>
-            <h3 id="heading">Index 🌠</h3>
-        </div>
-        <div class="navbar-right">
-            <input type="text" id="searchTerm" placeholder="Search a user">
-            <span id="search" class="iconify" data-inline="false" data-icon="ion:search"></span>
-            <span id="profile" class="iconify" data-inline="false" data-icon="carbon:user-avatar-filled"></span>
-        </div>
-    </div>
     <div class="mainbody">
+        <div class="vector">
+            <img src="images/signin-vector.svg">
+            <h4>your hub for social links 💫</h4>
+        </div>
+        <div class="signin">
+            <h1>Welcome to<br>illumi</h1>
+            <form autocomplete="off">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required autocapitalize="none">
+                <label for="password">Password</label>
+                <input type="password" name="password" required id="password">
+            </form>
+            <a href="home.html"><input type="submit" id="submit" value="Sign in"></a>
+            <hr class="solid">
+            <h5>or sign in using</h5>
+            <hr class="solid">
+            <div class="socmeds">
+                <span onclick="unavailable()" id="google" class="iconify" data-inline="false" data-icon="ant-design:google-circle-filled"></span>
+                <span onclick="unavailable()" id="facebook" class="iconify" data-inline="false" data-icon="entypo-social:facebook-with-circle"></span>
+                <span onclick="unavailable()" id="twitter" class="iconify" data-inline="false" data-icon="entypo-social:twitter-with-circle"></span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
