@@ -29,6 +29,10 @@ textarea:focus {
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .iconify {
     font-size: 1.8em;
     cursor: pointer;
@@ -107,6 +111,7 @@ h1 {
 #searchTerm {
     display: none;
     width: 300px;
+    height: 30px;
     background-color: #2D2548;
     border: 1px solid #EAF2EF;
     border-radius: 30px;
