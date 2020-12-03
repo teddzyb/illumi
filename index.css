@@ -37,12 +37,12 @@
 }
 
 .signin input {
-    width: 300px;
-    height: 40px;
+    width: 280px;
+    height: 35px;
     background-color: #392F5A;
     color: #EAF2EF;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 35px;
     border: 2px solid #EAF2EF;
     margin-bottom: 20px;
@@ -54,8 +54,8 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    width: 130px;
-    height: 35px;
+    width: 120px;
+    height: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
