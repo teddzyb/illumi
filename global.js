@@ -1,3 +1,5 @@
+// NAVBAR
+
 var navOpen = false;
 
 function openNav() {
@@ -19,4 +21,10 @@ function openNav() {
         document.getElementById('sideNav').style.width = "0";
         navOpen = false;
     }
+}
+
+// REDIRECT LINK
+
+function redirect(url) {
+    window.open(url, '_blank');
 }

@@ -6,11 +6,11 @@
     <meta property='og:title' content='' />
     <meta property='og:description' content='' />
     <meta property='og:image' content='' />
-    <title>illumi - profile</title>
+    <title>illumi - .teddzyb</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='icon' href='favicon.ico'>
     <link rel='stylesheet' type='text/css' media='screen' href='../global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../profile.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='teddzyb.css'>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <script src='../global.js'></script>
 </head>
@@ -28,7 +28,7 @@
             <span onclick="openNav()" id="burger" style="display: inline;" class="iconify" data-inline="false" data-icon="heroicons-outline:menu"></span>
             <span onclick="openNav()" class="iconify" id="close" style="display: none;" data-inline="false" data-icon="gg:close"></span>
             <h3 id="defaultHeading" style="display: none;"><b>illumi 💫</b></h3>
-            <h3 id="heading">Discover ✨</h3>
+            <h3 id="heading">.teddzyb</h3>
         </div>
         <div class="navbar-right">
             <input type="text" id="searchTerm" placeholder="Search a user">
@@ -39,8 +39,11 @@
     <div class="mainbody">
         <div class="card profile">
             <div class="buttons">
+                <div class="reportProfile">
+                    <span class="iconify" data-inline="false" data-icon="ic:outline-error"></span>
+                </div>
                 <div class="editProfile">
-                    <span id="editProfile" class="iconify" data-inline="false" data-icon="bx:bxs-message-square-edit"></span>
+                    <span class="iconify" data-inline="false" data-icon="bx:bxs-user-plus"></span>                
                 </div>
             </div>
             <div class="info">
@@ -54,26 +57,37 @@
                 <span class="iconify right" data-inline="false" data-icon="bx:bxs-quote-right"></span>
             </div>
         </div>
-        <div class="card new">
-            <div class="buttons">
-                <div class="addSection">
-                    <span class="iconify" data-inline="false" data-icon="bx:bxs-message-square-add"></span>
-                </div>
+        <div class="card one line">
+            <h4>Social Media</h4>
+            <hr class="solid">
+            <div class="socmeds">
+                <span onclick="redirect('https://www.facebook.com/teddybartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-facebook-circle"></span>
+                <span onclick="redirect('https://www.messenger.com/t/teddybartlett')" class="iconify" data-inline="false" data-icon="bx:bxl-messenger"></span>
+                <span onclick="redirect('https://www.instagram.com/teddzyb/')" class="iconify" data-inline="false" data-icon="bx:bxl-instagram-alt"></span>
+                <span onclick="redirect('https://discordapp.com/users/384648237216432129/')" class="iconify" data-inline="false" data-icon="bx:bxl-discord"></span>
+                <span onclick="redirect('https://open.spotify.com/user/21uxurnzxy7uutt3snh6nyv3a')" class="iconify" data-inline="false" data-icon="bx:bxl-spotify"></span>
+                <span onclick="redirect('https://github.com/teddzyb')" class="iconify" data-inline="false" data-icon="bx:bxl-github"></span>
+                <span onclick="redirect('https://www.linkedin.com/in/edwin-bartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-linkedin-square"></span>
             </div>
-            <h5>Add a new section</h5>
         </div>
         <div class="category">
             <div class="divider">
                 <hr class="solid">
             </div>
-            <div class="addCategory">
+            <div class="categoryName">
                 <h4>ABOUT&nbspME</h4>
             </div>
             <div class="divider">
                 <hr class="solid">
             </div>
         </div>
-        
+        <div class="card two line">
+            <h4>Featured Photos</h4>
+            <hr class="solid">
+            <div class="images">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>

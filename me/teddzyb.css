@@ -32,9 +32,16 @@
 }
 
 .editProfile {
-    flex-basis: 100%;
+    flex-basis: 50%;
     text-align: right;
     padding-right: 12px;
+    padding-top: 12px;
+}
+
+.reportProfile {
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 12px;
     padding-top: 12px;
 }
 
@@ -91,11 +98,38 @@
     height: 90px;
 }
 
-.new {
+.line h4 {
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.line hr.solid {
+    background-color: #392F5A;
+    border-color: #392F5A;
+    width: 99%;
+}
+
+.one {
     height: 122px;
     display: inline-block;
     text-align: center;
-    cursor: pointer;
+}
+
+.one .iconify {
+    font-size: 2.6em;
+}
+
+.socmeds {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.two {
+    height: 215px;
+    display: inline-block;
+    text-align: center;
 }
 
 .addSection {
@@ -105,13 +139,9 @@
     padding-top: 12px;
 }
 
-.new h5 {
-    color: #C3C8CB;
-}
-
 .category {
     text-align: center;
-    margin: 10px 16px 0 16px;
+    margin: 10px 16px 24px 16px;
     cursor: pointer;
     display: flex;
 }
@@ -136,12 +166,6 @@ hr.solid {
     width: 100%;
 }
 
-.newCategory {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
 @media (min-width: 900px) {
     .mainbody {
         margin-top: 90px;
@@ -157,6 +181,16 @@ hr.solid {
         display: inline-block;
     }
 
+    .editProfile {
+        padding-right: 20px;
+        padding-top: 12px;
+    }
+    
+    .reportProfile {
+        padding-left: 20px;
+        padding-top: 12px;
+    }
+
     .bio textarea {
         width: 440px;
         height: 90px;
@@ -165,8 +199,8 @@ hr.solid {
     .category {
         width: 55%;
     }
-
-    .newCategory {
-        margin-bottom: 100px;
+    
+    .socmeds {
+        padding: 0 15px;
     }
 }

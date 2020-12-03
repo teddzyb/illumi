@@ -110,14 +110,6 @@ h1 {
 
 #searchTerm {
     display: none;
-    width: 300px;
-    height: 30px;
-    background-color: #2D2548;
-    border: 1px solid #EAF2EF;
-    border-radius: 30px;
-    padding-left: 20px;
-    color: #EAF2EF;
-    font-size: 0.8em;
 }
 
 ::placeholder {
@@ -207,6 +199,19 @@ h1 {
 
     #searchTerm {
         display: inline;
+        width: 150px;
+        height: 30px;
+        background-color: #2D2548;
+        border: 1px solid #EAF2EF;
+        border-radius: 30px;
+        padding-left: 20px;
+        color: #EAF2EF;
+        font-size: 0.8em;
+        transition: 0.5s;
+    }
+    
+    #searchTerm:focus {
+        width: 250px;
     }
 
     .sidenav {
