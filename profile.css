@@ -4,13 +4,127 @@
     flex-direction: column;
 }
 
+/*
+.mainbody div {
+    border: 1px solid black;
+}
+*/
+
 .card {
     background-color: #2D2548;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin: 0 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profile {
-    height: 350px;
+    height: 360px;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.editProfile {
+    flex-basis: 100%;
+    text-align: right;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
+.info {
+    text-align: center;
+    position: relative;
+    top: -25px;
+    pointer-events: none;
+}
+
+.info img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.info h4 {
+    margin-top: 10px;
+}
+
+.bio {
+    text-align: center;
+    overflow: hidden;
+}
+
+.bio .iconify {
+    display: inline-block;
+    color: #392F5A;
+    font-size: 20px;
+}
+
+.left {
+    position: relative;
+    right: -35px;
+    top: -25px;
+}
+
+.right {
+    position: relative;
+    left: -35px;
+    bottom: -38px;
+}
+
+.bio textarea {
+    background-color: #261F3D;
+    color: #EAF2EF;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #261F3D;
+    width: 300px;
+    height: 90px;
+}
+
+.new {
+    height: 122px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addSection {
+    flex-basis: 100%;
+    text-align: right;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+
+.new h5 {
+    color: #C3C8CB;
+}
+
+@media (min-width: 900px) {
+    .mainbody {
+        margin-top: 90px;
+        align-items: center;
+    }
+
+    .card {
+        width: 55%;
+    }
+    
+    .profile {
+        height: 370px;
+        display: inline-block;
+    }
+
+    .bio textarea {
+        width: 440px;
+        height: 90px;
+    }
 }

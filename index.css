@@ -52,7 +52,7 @@
     background-color: #EAF2EF;
     color: #392F5A;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     width: 120px;
     height: 30px;
@@ -121,7 +121,7 @@ hr.solid {
 
     .signin {
         text-align: center;
-        margin-top: 5%;
+        margin-top: 6%;
         margin-right: 2%;
     }
 }

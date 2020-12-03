@@ -21,6 +21,14 @@ input:focus {
     outline: none;
 }
 
+textarea {
+    font-family: 'DM Sans', sans-serif;
+}
+
+textarea:focus {
+    outline: none;
+}
+
 .iconify {
     font-size: 1.8em;
     cursor: pointer;
