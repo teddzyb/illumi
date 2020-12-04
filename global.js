@@ -28,3 +28,16 @@ function openNav() {
 function redirect(url) {
     window.open(url, '_blank');
 }
+
+// TOGGLE SHOW/HIDE CATEGORY
+
+function toggleCategory(category) {
+    console.log(category);
+    var display = document.getElementById(category).style.display;
+    console.log(display);
+    if (display == "flex") {
+        document.getElementById(category).style.display = "none";
+    } else {
+        document.getElementById(category).style.display = "flex";
+    }
+}

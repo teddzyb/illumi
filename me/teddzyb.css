@@ -10,11 +10,38 @@
 }
 */
 
+.category {
+    text-align: center;
+    margin: 10px 16px 24px 16px;
+    cursor: pointer;
+    display: flex;
+}
+
+.categoryName {
+    flex-basis: 10%;
+    flex-grow: 0;
+    margin: 0 10px;
+    width: 100%;
+}
+
+.divider {
+    flex-basis: 45%;
+    flex-grow: 0;
+}
+
+hr.solid {
+    background-color: #EAF2EF;
+    display: inline-block;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .card {
     background-color: #2D2548;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin: 0 16px 16px 16px;
+    margin: 0 0 16px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,12 +103,14 @@
     position: relative;
     right: -35px;
     top: -28px;
+    cursor: auto;
 }
 
 .right {
     position: relative;
     left: -35px;
     bottom: -40px;
+    cursor: auto;
 }
 
 .bio textarea {
@@ -110,7 +139,7 @@
 }
 
 .one {
-    height: 122px;
+    height: 110px;
     display: inline-block;
     text-align: center;
 }
@@ -132,38 +161,88 @@
     text-align: center;
 }
 
-.addSection {
-    flex-basis: 100%;
-    text-align: right;
-    padding-right: 12px;
-    padding-top: 12px;
-}
-
-.category {
-    text-align: center;
-    margin: 10px 16px 24px 16px;
-    cursor: pointer;
+.two .images {
     display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding: 8px 5px 0 5px;
 }
 
-hr.solid {
-    background-color: #EAF2EF;
+.two img {
+    flex-basis: 30%;
+    background-color: #261F3D;
+    border-radius: 6px;
+}
+
+.three {
+    height: 294px;
     display: inline-block;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
+    text-align: center;
 }
 
-.divider {
+.three .posts {
+    display: flex;
+    justify-content: space-around;
+    height: 230px;
+    padding: 8px 5px 0 5px;
+}
+
+.post-1, .post-2 {
     flex-basis: 45%;
-    flex-grow: 0;
+    background-color: #261F3D;
+    border-radius: 6px;
 }
 
-.categoryName {
-    flex-basis: 10%;
-    flex-grow: 0;
-    margin: 0 10px;
-    width: 100%;
+.four {
+    height: 132px;
+    display: inline-block;
+    text-align: center;
+}
+
+.five {
+    height: 215px;
+    display: inline-block;
+    text-align: center;
+}
+
+.six {
+    height: 360px;
+    display: inline-block;
+    text-align: center;
+}
+
+.live {
+    height: 182px;
+    text-align: center;
+    background-color: #392F5A;
+    border-radius: 20px;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seven, .eight {
+    flex-basis: 48%;
+    margin-bottom: 0;
+}
+
+.nine {
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.category-1, .category-2, .category-3,
+ .category-4 {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-4 {
+    color: #C3C8CB;
 }
 
 @media (min-width: 900px) {
@@ -172,7 +251,12 @@ hr.solid {
         align-items: center;
     }
 
-    .card {
+    .category {
+        width: 55%;
+    }
+
+    .category-1, .category-2, .category-3,
+    .category-4 {
         width: 55%;
     }
     
@@ -196,8 +280,8 @@ hr.solid {
         height: 90px;
     }
 
-    .category {
-        width: 55%;
+    .one {
+        height: 122px;
     }
     
     .socmeds {

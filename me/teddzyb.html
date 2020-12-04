@@ -37,40 +37,68 @@
         </div>
     </div>
     <div class="mainbody">
-        <div class="card profile">
-            <div class="buttons">
-                <div class="reportProfile">
-                    <span class="iconify" data-inline="false" data-icon="ic:outline-error"></span>
+
+        <div class="category-1">
+            <div class="card profile">
+                <div class="buttons">
+                    <div class="reportProfile">
+                        <span class="iconify" data-inline="false" data-icon="ic:outline-error"></span>
+                    </div>
+                    <div class="editProfile">
+                        <span class="iconify" data-inline="false" data-icon="bx:bxs-user-plus"></span>                
+                    </div>
                 </div>
-                <div class="editProfile">
-                    <span class="iconify" data-inline="false" data-icon="bx:bxs-user-plus"></span>                
+                <div class="info">
+                    <img src="../images/teddzyb.jpeg">
+                    <h4>Edwin Bartlett</h4>
+                    <h5>.teddzyb</h5>
+                </div>
+                <div class="bio">
+                    <span class="iconify left" data-inline="false" data-icon="bx:bxs-quote-left"></span>
+                    <textarea readonly maxlength="120" name="bio" id="bio" style="resize: none;">Edwin from the Philippines! 🇵🇭&#013📱 Technology is life!!!&#013Check out my sick layout yo&#013⬇ ⬇ ⬇ ⬇ ⬇ ⬇ ⬇</textarea>
+                    <span class="iconify right" data-inline="false" data-icon="bx:bxs-quote-right"></span>
                 </div>
             </div>
-            <div class="info">
-                <img src="../images/teddzyb.jpeg">
-                <h4>Edwin Bartlett</h4>
-                <h5>.teddzyb</h5>
-            </div>
-            <div class="bio">
-                <span class="iconify left" data-inline="false" data-icon="bx:bxs-quote-left"></span>
-                <textarea readonly maxlength="120" name="bio" id="bio" style="resize: none;">Edwin from Philippines! 🇵🇭&#013📱 Technology is life!!!&#013Check out my sick layout yo&#013⬇ ⬇ ⬇ ⬇ ⬇ ⬇ ⬇</textarea>
-                <span class="iconify right" data-inline="false" data-icon="bx:bxs-quote-right"></span>
+            <div class="card one line">
+                <h4>Social Media</h4>
+                <hr class="solid">
+                <div class="socmeds">
+                    <span onclick="redirect('https://www.facebook.com/teddybartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-facebook-circle"></span>
+                    <span onclick="redirect('https://www.messenger.com/t/teddybartlett')" class="iconify" data-inline="false" data-icon="bx:bxl-messenger"></span>
+                    <span onclick="redirect('https://www.instagram.com/teddzyb/')" class="iconify" data-inline="false" data-icon="bx:bxl-instagram-alt"></span>
+                    <span onclick="redirect('https://discordapp.com/users/384648237216432129/')" class="iconify" data-inline="false" data-icon="bx:bxl-discord"></span>
+                    <span onclick="redirect('https://open.spotify.com/user/21uxurnzxy7uutt3snh6nyv3a')" class="iconify" data-inline="false" data-icon="bx:bxl-spotify"></span>
+                    <span onclick="redirect('https://github.com/teddzyb')" class="iconify" data-inline="false" data-icon="bx:bxl-github"></span>
+                    <span onclick="redirect('https://www.linkedin.com/in/edwin-bartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-linkedin-square"></span>
+                </div>
             </div>
         </div>
-        <div class="card one line">
-            <h4>Social Media</h4>
-            <hr class="solid">
-            <div class="socmeds">
-                <span onclick="redirect('https://www.facebook.com/teddybartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-facebook-circle"></span>
-                <span onclick="redirect('https://www.messenger.com/t/teddybartlett')" class="iconify" data-inline="false" data-icon="bx:bxl-messenger"></span>
-                <span onclick="redirect('https://www.instagram.com/teddzyb/')" class="iconify" data-inline="false" data-icon="bx:bxl-instagram-alt"></span>
-                <span onclick="redirect('https://discordapp.com/users/384648237216432129/')" class="iconify" data-inline="false" data-icon="bx:bxl-discord"></span>
-                <span onclick="redirect('https://open.spotify.com/user/21uxurnzxy7uutt3snh6nyv3a')" class="iconify" data-inline="false" data-icon="bx:bxl-spotify"></span>
-                <span onclick="redirect('https://github.com/teddzyb')" class="iconify" data-inline="false" data-icon="bx:bxl-github"></span>
-                <span onclick="redirect('https://www.linkedin.com/in/edwin-bartlett/')" class="iconify" data-inline="false" data-icon="bx:bxl-linkedin-square"></span>
+
+        <div class="category-2">
+            <div class="card two line">
+                <h4>Featured Photos</h4>
+                <hr class="solid">
+                <div class="images">
+                    <img src="#">
+                    <img src="#">
+                    <img src="#">
+                </div>
+            </div>
+            <div class="card three line">
+                <h4>Featured Posts</h4>
+                <hr class="solid">
+                <div class="posts">
+                    <div class="post-1">
+                        
+                    </div>
+                    <div class="post-2">
+                        
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="category">
+
+        <div class="category" onclick="toggleCategory('category3')">
             <div class="divider">
                 <hr class="solid">
             </div>
@@ -81,13 +109,45 @@
                 <hr class="solid">
             </div>
         </div>
-        <div class="card two line">
-            <h4>Featured Photos</h4>
-            <hr class="solid">
-            <div class="images">
 
+        <div class="category-3" id="category3" style="display: flex;">
+            <div class="card four">
+                
+            </div>
+            <div class="card five">
+                
             </div>
         </div>
+
+        <div class="category" onclick="toggleCategory('category4')">
+            <div class="divider">
+                <hr class="solid">
+            </div>
+            <div class="categoryName">
+                <h4>ONLINE&nbspSTATUS</h4>
+            </div>
+            <div class="divider">
+                <hr class="solid">
+            </div>
+        </div>
+
+        <div class="category-4" id="category4" style="display: flex;">
+            <div class="card six">
+                coming soon
+            </div>
+            <div class="live">
+                <div class="card seven">
+                    coming soon
+                </div>
+                <div class="card eight">
+                    coming soon
+                </div>
+            </div>
+            <div class="card nine">
+                coming soon
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

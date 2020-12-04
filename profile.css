@@ -10,11 +10,45 @@
 }
 */
 
+.category {
+    text-align: center;
+    margin: 10px 16px 24px 16px;
+    cursor: pointer;
+    display: flex;
+}
+
+hr.solid {
+    background-color: #EAF2EF;
+    display: inline-block;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.divider {
+    flex-basis: 45%;
+    flex-grow: 0;
+}
+
+.categoryName {
+    flex-basis: 10%;
+    flex-grow: 0;
+    margin: 0 10px;
+    width: 100%;
+}
+
+.category-1, .category-2 {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
 .card {
     background-color: #2D2548;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin: 0 16px 16px 16px;
+    margin: 0 0 16px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,12 +103,14 @@
     position: relative;
     right: -35px;
     top: -28px;
+    cursor: auto;
 }
 
 .right {
     position: relative;
     left: -35px;
     bottom: -40px;
+    cursor: auto;
 }
 
 .bio textarea {
@@ -109,33 +145,6 @@
     color: #C3C8CB;
 }
 
-.category {
-    text-align: center;
-    margin: 10px 16px 0 16px;
-    cursor: pointer;
-    display: flex;
-}
-
-hr.solid {
-    background-color: #EAF2EF;
-    display: inline-block;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.divider {
-    flex-basis: 45%;
-    flex-grow: 0;
-}
-
-.categoryName {
-    flex-basis: 10%;
-    flex-grow: 0;
-    margin: 0 10px;
-    width: 100%;
-}
-
 .newCategory {
     text-align: center;
     margin-top: 10px;
@@ -148,7 +157,11 @@ hr.solid {
         align-items: center;
     }
 
-    .card {
+    .category {
+        width: 55%;
+    }
+
+    .category-1, .category-2 {
         width: 55%;
     }
     
@@ -160,10 +173,6 @@ hr.solid {
     .bio textarea {
         width: 440px;
         height: 90px;
-    }
-
-    .category {
-        width: 55%;
     }
 
     .newCategory {
