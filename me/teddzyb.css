@@ -134,8 +134,9 @@ hr.solid {
 
 .line hr.solid {
     background-color: #392F5A;
-    border-color: #392F5A;
-    width: 99%;
+    height: 1px;
+    border: none;
+    width: 100%;
 }
 
 .one {
@@ -163,15 +164,22 @@ hr.solid {
 
 .two .images {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 150px;
-    padding: 8px 5px 0 5px;
+    padding-top: 8px;
 }
 
 .two img {
     flex-basis: 30%;
     background-color: #261F3D;
     border-radius: 6px;
+    margin: 0 4px;
+    width: 110px;
+    object-fit: cover;
+}
+
+.hide {
+    display: none;
 }
 
 .three {
@@ -187,8 +195,8 @@ hr.solid {
     padding: 8px 5px 0 5px;
 }
 
-.post-1, .post-2 {
-    flex-basis: 45%;
+.post-1 {
+    flex-basis: 95%;
     background-color: #261F3D;
     border-radius: 6px;
 }
@@ -286,5 +294,45 @@ hr.solid {
     
     .socmeds {
         padding: 0 15px;
+    }
+
+    .two {
+        flex-basis: 49%;
+        height: 452px;
+    }
+    
+    .two .images {
+        height: 179px;
+        flex-wrap: wrap;
+    }
+    
+    .two img {
+        height: 179px;
+        width: 142px;
+        margin: 6px;
+    }
+
+    .hide {
+        display: inline;
+    }
+    
+    .three {
+        flex-basis: 49%;
+        height: 452px;
+    }
+    
+    .three .posts {
+        height: 381px;
+    }
+    
+    .post-1 {
+        flex-basis: 95%;
+        min-width: 279px;
+    }
+
+    .category-2 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 }
