@@ -4,3 +4,156 @@
     flex-direction: column;
     height: 768px;
 }
+
+/*
+.mainbody div {
+    border: 1px solid black;
+}
+*/
+
+.newPost {
+    background-color: #2D2548;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.newPost textarea {
+    resize: none;
+    background-color: #261F3D;
+    border: 1px solid #261F3D;
+    color: #EAF2EF;
+    font-size: 1em;
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    margin: 15px;
+    transition: 0.2s;
+}
+
+.newPost textarea:focus {
+    resize: none;
+    border-radius: 15px;
+    height: 100px;
+    width: 100%;
+    margin: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.newPost textarea::placeholder {
+    color: #C3C8CB;
+    padding-left: 15px;
+    padding-top: 8px;
+    transition: 0.2s;
+}
+
+.newPost textarea:focus::placeholder {
+    padding-left: 5px;
+    padding-top: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons .iconify {
+    margin-right: 15px;
+    font-size: 1.8em;
+}
+
+#sendPost {
+    margin-top: 20px;
+}
+
+.post {
+    margin: 8px 16px;
+    background-color: #2D2548;
+    border-radius: 10px;
+}
+
+.post.two .content {
+    height: 289px;
+}
+
+.post.one .content {
+    height: 407px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #392F5A;
+}
+
+.header img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.dp {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px 10px  0;
+}
+
+.name {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name h5 {
+    font-weight: bold;
+}
+
+.name h6 {
+    color: #C3C8CB;
+}
+
+.options {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.options .iconify {
+    margin: 10px 10px 0 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+@media (min-width: 900px) {
+    .mainbody {
+        margin-top: 90px;
+        align-items: center;
+    }
+
+    .newPost, .post {
+        width: 55%;
+    }
+
+    .dp {
+        flex-basis: 10%;
+    }
+    
+    .name {
+        flex-basis: 80%;
+    }
+    
+    .options {
+        flex-basis: 10%;
+    }
+}

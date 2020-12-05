@@ -112,7 +112,7 @@ h1 {
     display: none;
 }
 
-::placeholder {
+#searchTerm::placeholder {
     color: #EAF2EF;
     opacity: 0.8;
 }
