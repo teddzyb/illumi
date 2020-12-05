@@ -15,4 +15,4 @@ https://myillumi.netlify.app/
 Ongoing
 
 ## Contributors
-This is both a personal and a school project made by myself, Edwin Bartlett. I am, however, open to contributors as soon as I present the project for school puposes.
+This is both a personal and a school project made by myself, Edwin Bartlett. I am, however, open to contributors as soon after I present the project for school puposes.
