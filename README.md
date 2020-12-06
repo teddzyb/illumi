@@ -1,5 +1,5 @@
 # illumi
-Illumi is a social platform that allows users to personalize their profiles and discover new people.
+illumi is a social platform that allows users to personalize their profiles and discover new people.
 
 ## Wesbite link
 https://myillumi.netlify.app/
