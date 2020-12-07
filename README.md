@@ -4,7 +4,7 @@ illumi is a social platform that allows users to personalize their profiles and 
 ### Wesbite link:
 https://myillumi.netlify.app/
 
-### Check out the Figma Prototype:
+### Check out the Figma prototype:
 https://www.figma.com/file/xH3RE2M0p4WWKpumV2lRfX/illumi?node-id=0%3A1
 
 ## Features
