@@ -14,8 +14,8 @@ https://www.figma.com/file/xH3RE2M0p4WWKpumV2lRfX/illumi?node-id=0%3A1
 💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.\
 
 ## Plans
- [ ] Rebuild website with PHP
- [ ] Work on the backend
+- [ ] Rebuild website with PHP
+- [ ] Work on the backend
 
 ## Project Status
 Ongoing
