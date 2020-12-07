@@ -7,11 +7,11 @@ https://myillumi.netlify.app/
 ### Check out the Figma prototype:
 https://www.figma.com/file/xH3RE2M0p4WWKpumV2lRfX/illumi?node-id=0%3A1
 
-## Features
+## Features (not functional yet)
 💫 **Profiles** – Personalize your profile page with a wide variety of customization options, from background designs and layouts to different icon styles.\
 ✨ **Discover** – Discover new people around the world, visit their profiles, or send them a message.\
 🌠 **Feed** – Post your content to the world, and also see what amazing content other users are on about.\
-💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.\
+💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.
 
 ## Plans
 - [ ] Rebuild website with PHP
