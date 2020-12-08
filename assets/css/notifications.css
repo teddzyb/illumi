@@ -1,0 +1,12 @@
+.mainbody {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 768px;
+}
+
+/*
+.mainbody div {
+    border: 1px solid black;
+}
+*/

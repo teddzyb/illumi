@@ -127,6 +127,10 @@ hr.solid {
     height: 90px;
 }
 
+.bio textarea::placeholder {
+    color: #C3C8CB;
+}
+
 .new {
     height: 122px;
     display: inline-block;

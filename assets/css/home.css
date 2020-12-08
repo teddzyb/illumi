@@ -156,4 +156,8 @@
     .options {
         flex-basis: 10%;
     }
+
+    .options .iconify {
+        margin-top: 12px;
+    }
 }
