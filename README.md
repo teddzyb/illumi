@@ -15,7 +15,7 @@ https://myillumi.netlify.app/
 - [ ] Work on the backend
 
 ## Project Status
-Ongoing
+Paused – I'll be back working on it starting late December.
 
 ## Contributing
 This is both a personal and a school project made by myself, Edwin Bartlett. I am, however, open to contribution as soon after I present the project for school puposes.
