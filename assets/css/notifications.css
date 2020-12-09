@@ -85,6 +85,10 @@
         width: 55%;
     }
 
+    .content {
+        margin-left: 5px;
+    }
+
     .options {
         display: flex;
         flex-basis: 15%;
