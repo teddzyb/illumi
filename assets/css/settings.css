@@ -1,0 +1,13 @@
+.mainbody {
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+/*
+.mainbody div {
+    border: 1px solid black;
+}
+*/
+

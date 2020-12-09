@@ -1,8 +1,8 @@
 .mainbody {
-    margin-top: 60px;
+    margin-top: 76px;
     display: flex;
     flex-direction: column;
-    height: 768px;
+    padding: 0 16px;
 }
 
 /*
@@ -10,3 +10,89 @@
     border: 1px solid black;
 }
 */
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown h5 {
+    margin-right: 20px;
+}
+
+.notification {
+    height: 85px;
+    background-color: #2D2548;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    flex-basis: 15%;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #EAF2EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon .iconify {
+    color: #2D2548;
+    font-size: 2em;
+}
+
+.content {
+    flex-basis: 70%;
+    margin-left: 15px;
+}
+
+.content h5:nth-child(1) {
+    padding-bottom: 5px;
+}
+
+.options {
+    display: none;
+    flex-basis: 15%;
+}
+
+@media (min-width: 900px) {
+    .mainbody {
+        margin-top: 90px;
+        align-items: center;
+    }
+
+    .header {
+        width: 55%;
+    }
+
+    .notification {
+        width: 55%;
+    }
+
+    .options {
+        display: flex;
+        flex-basis: 15%;
+        justify-content: flex-end;
+    }
+
+    .options .iconify {
+        margin-right: 15px;
+    }
+
+}
