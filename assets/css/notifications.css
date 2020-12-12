@@ -73,12 +73,22 @@
 
 @media (min-width: 900px) {
     .mainbody {
-        margin-top: 90px;
+        margin-top: 13vh;
         align-items: center;
     }
 
     .header {
         width: 55%;
+        padding: 10px 0;
+    }
+
+    .dropdown h5 {
+        margin-right: 35px;
+        font-size: 1em;
+    }
+
+    .dropdown .iconify {
+        font-size: 1.2em;
     }
 
     .notification {

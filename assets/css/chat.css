@@ -92,7 +92,7 @@
 
 @media (min-width: 900px) {
     .mainbody {
-        margin-top: 83px;
+        margin-top: 13vh;
         justify-content: center;
         flex-direction: row;
     }
@@ -104,7 +104,7 @@
     .chats {
         flex-basis: 30%;
         margin-right: 15px;
-        height: 87vh;
+        height: 86vh;
         overflow-y: auto;
     }
 
