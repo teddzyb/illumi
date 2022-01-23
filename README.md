@@ -1,9 +1,6 @@
 # illumi
 illumi is a social platform that allows users to personalize their profiles and discover new people.
 
-## Wesbite link
-https://myillumi.netlify.app/
-
 ## Features
 💫 **Profiles** – Personalize your profile page with a wide variety of customization options, from background designs and layouts to different icon styles.\
 ✨ **Discover** – Discover new people around the world, visit their profiles, or send them a message.\
@@ -11,9 +8,9 @@ https://myillumi.netlify.app/
 💬 **Chat** – Chat with your friends or strangers in dedicated chatrooms for different topics.
 
 ## Plans
-- [ ] Rewrite the website in PHP
+- [ ] Rewrite the website in PHP or Vue
 - [ ] Redesign the website with Bootstrap
-- [ ] Work on the backend with SQL
+- [ ] Incorporate a backend with MySQL or Laravel
 
 ## Screenshots
 <p align="center">
@@ -41,8 +38,5 @@ https://myillumi.netlify.app/
   Profile Page
 </p>
 
-## Contributing
-Not open to contributions for now.
-
 ## Project Status
-Paused – I'll work on it again soon!
+Paused – I'll be working on it again soon!
